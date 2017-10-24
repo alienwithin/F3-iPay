@@ -31,7 +31,7 @@ crl=http
 - call_back - The URL that iPay redirects your buyers to after they have Checked out
 - currency - The currency in use e.g. KES or USD
 - endpoint - API Endpoint, values can be 'sandbox' or 'production' which hydrates the parameter to determine if app is live or not.
-- log - logs all API requests & responses to pesapal.log
+- log - logs all API requests & responses to iPay.log
 - mpesa - Display Mpesa Mobile Money Channel (on or off). “on” by Default (i.e. mpesa=1)	
 - airtel - Display Airtel Mobile Money Channel (on or off). “on” by Default (i.e. airtel=1)	
 - equity - Display the Equity EazzyPay Channel (on or off). “on” by Default (i.e. equity=1)	
