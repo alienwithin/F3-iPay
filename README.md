@@ -90,7 +90,7 @@ The process is going to be a multistep process as below assuming a simple form b
 ```php
 $iPay=new IPay;
 ```
-2. Populate PesaPal mandatory variables to create the valid XML to post to pesapal
+2. Populate iPay mandatory variables to create the valid XML to post to iPay
 ```php
 /*Define IPay Mandatory Variables*/
 
@@ -104,7 +104,7 @@ $content=$iPay->process_iPay_payment($orderID,$totalAmount,$email,$telephone,$p1
 //define area to load the generated Ipaycheckout form for submission using the F3 Hive
 $f3->set('content',$content);
 //Render on page
-echo \Template::instance()->render('pesapal.html');
+echo \Template::instance()->render('ipay.html');
 ```
 
 Your actual View i.e. ipay.html will be tagged a sample is as below: 
